@@ -31,7 +31,7 @@ const App = () => {
   }, [filter, data]);
 
   return (
-    <Router  basename='/frontend-task-route/'>
+    <Router  >
       <AppContent data={data} filteredCustomers={filteredCustomers} setFilter={setFilter} />
     </Router>
   );
