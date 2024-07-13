@@ -56,7 +56,7 @@ const AppContent = ({ data, filteredCustomers, setFilter }) => {
           element={<CustomerTable customers={filteredCustomers} transactions={data.transactions} />}
         />
         <Route
-          path="/chart/:customerId"
+          path="chart/:customerId"
           element={<ChartPage transactions={data.transactions} customers={data.customers} />}
         />
       </Routes>
