@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/frontend-task-route/', // تأكد من أن هذا المسار صحيح بناءً على هيكل GitHub Pages الخاص بك
+  base: /frontend-task-route/,
   plugins: [react()],
   build: {
     rollupOptions: {
