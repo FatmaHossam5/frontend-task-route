@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Filter from './Components/Filter';
 import CustomerTable from './Components/CustomerTable';
 import { Box, Paper } from '@mui/material';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import ChartPage from './Components/ChartPage';
 
 const App = () => {
