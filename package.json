@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fatmahossam5.github.io/Route-Task",
+  "homepage": "https://fatmahossam5.github.io/Route-Task/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
